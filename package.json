@@ -1,0 +1,18 @@
+{
+  "name": "ij-test",
+  "version": "1.0.0",
+  "description": "Test images for use in other ij packages",
+  "keywords": [
+    "image",
+    "ij",
+    "test"
+  ],
+  "author": "Michaël Zasso",
+  "repository": "image-js/test",
+  "bugs": {
+    "url": "https://github.com/image-js/test/issues"
+  },
+  "homepage": "https://github.com/image-js/test",
+  "license": "MIT",
+  "main": "./ij-test.js"
+}
