@@ -8,7 +8,10 @@ exports.getImage = function getImage(name) {
 };
 
 exports.getHash = function getHash(img) {
+    if (!img.length) {
+        img = img.data;
+    }
     var sha = new SHA256();
-    sha.update(img.data);
+    sha.update(img);
     return sha.digest('hex');
 };
