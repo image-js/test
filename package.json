@@ -14,5 +14,8 @@
   },
   "homepage": "https://github.com/image-js/test",
   "license": "MIT",
-  "main": "./ij-test.js"
+  "main": "./ij-test.js",
+  "dependencies": {
+    "sha.js": "^2.4.2"
+  }
 }
