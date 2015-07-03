@@ -3,6 +3,13 @@
 var path = require('path');
 var SHA256 = require('sha.js').sha256;
 
+exports.imageList = [
+    'grey8.png',
+    'grey16.png',
+    'rgb8.png',
+    'rgb16.png'
+];
+
 exports.getImage = function getImage(name) {
     return path.resolve(__dirname, 'img', name);
 };
