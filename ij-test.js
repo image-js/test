@@ -5,6 +5,7 @@ var SHA256 = require('sha.js').sha256;
 
 exports.imageList = [
     'cells.jpg',
+    'ecoli.png',
     'grey8.png',
     'grey16.png',
     'rgb8.png',
