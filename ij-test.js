@@ -4,12 +4,17 @@ var path = require('path');
 var SHA256 = require('sha.js').sha256;
 
 exports.imageList = [
+    'cat.jpg',
+    'cat-blur.jpg',
     'cells.jpg',
     'ecoli.png',
     'grey8.png',
     'grey16.png',
     'rgb8.png',
-    'rgb16.png'
+    'rgb16.png',
+    'BW11x11.png',
+    'BW15x15.png',
+    'BW15x15transparent.png'
 ];
 
 exports.getImage = function getImage(name) {
