@@ -8,6 +8,7 @@ exports.imageList = [
     'cat-blur.jpg',
     'cells.jpg',
     'ecoli.png',
+    'xtc.jpg',
     'grey8.png',
     'grey16.png',
     'rgb8.png',
