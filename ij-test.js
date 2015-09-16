@@ -25,7 +25,13 @@ exports.imageList = [
     'rgb32bits.png',
     'rgb64bits.png',
     'rgb8bits.png',
-    'xtc.jpg'
+    'xtc.jpg',
+    // 5x5a_5.png resized with Photoshop using nearest neighbour algorithm
+    'resize/5x5a_1.png',
+    'resize/5x5a_2.png',
+    'resize/5x5a_3.png',
+    'resize/5x5a_4.png',
+    'resize/5x5a_5.png',
 ];
 
 exports.getImage = function getImage(name) {
