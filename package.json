@@ -7,6 +7,9 @@
     "ij",
     "test"
   ],
+  "scripts": {
+    "preversion": "node generateList.js"
+  },
   "author": "Michaël Zasso",
   "repository": "image-js/test",
   "bugs": {
