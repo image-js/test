@@ -25,8 +25,9 @@
   "resize/5x5a_3.png",
   "resize/5x5a_4.png",
   "resize/5x5a_5.png",
+  "rgb24bits.png",
   "rgb32bits.png",
-  "rgb64bits.png",
+  "rgb48bits.png",
   "rgb8bits.png",
   "xtc.jpg"
 ]
