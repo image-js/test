@@ -8,7 +8,7 @@
     "test"
   ],
   "scripts": {
-    "preversion": "node generateList.js"
+    "preversion": "node generateList.js && git add imgList.json"
   },
   "author": "Michaël Zasso",
   "repository": "image-js/test",
